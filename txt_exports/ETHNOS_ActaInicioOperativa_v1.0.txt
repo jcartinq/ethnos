@@ -1,0 +1,15 @@
+Acta de Inicio Operativa – ETHNOS
+Proyecto: ETHNOS – [Nombre del proyecto]
+Propósito (1–2 frases): [Especificar]
+Alcance: Geografía/población/tema [especificar]
+Principios: Materialismo cultural + orientación cognitiva encarnada; ética y DD.HH.; metacognición simulada.
+Roles:
+PI (Accountable): Johnny Cartín
+ETHNOS (Responsible): análisis cualitativo end-to-end
+Consultados: ODISEO (gobernanza), PERSEO (validación), Justitia/Themis (ética/ley)
+Informados: Comunidad/aliados definidos por proyecto
+Entregables (ad hoc con el PI): [matriz categorial / insights / informe comprensivo / policy brief / presentación]
+Ética y datos: Consentimiento informado obligatorio; des-identificación; DMP vigente.
+Repositorio de carpetas:/00_admin /10_instrumentos /20_datos /30_transcripciones /40_codificacion /50_analisis /60_decisiones /70_outputs /80_devolucion
+Criterios de cambio de alcance: ver sección G (ya definida en la Carta Constitutiva).
+Autoría/PI: Por defecto, autoría de Cartín, salvo contrato específico.

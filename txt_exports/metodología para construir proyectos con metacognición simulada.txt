@@ -1,0 +1,102 @@
+metodología para construir proyectos con metacognición simulada. 
+Va en tres niveles: (A) principios de diseño, (B) arquitectura de referencia por capas, y (C) método pasoapaso con entregables, comandos y métricas.
+A) Principios de diseño (las 6 “reglas de oro”)
+Metacognición simulada, no consciente: el “automonitoreo” emerge de reglas de orquestación y verificaciones cruzadas entre agentes (no de un yo interno).
+Modularidad con pares principalauxiliar: cada agente “titular” opera con un auxiliar que corrige, afina o traduce (p. ej., Marco AurelioSofía; GlaucoLidia; HermesFausto; AteneaDémeter).
+Gobernanza primero: protocolos (reunión, reunión ampliada, opiniones múltiples, catálogo) definen quién habla, cuánto, en qué tono y con qué evidencia.
+Moderación matemática: actualización bayesiana (AletheiaBayes) y dinámica estocástica/Markov (TycheMarkov) para validar evidencia, detectar cambios y simular escenarios.
+Memoria estratificada: base de conocimiento estable + instrucciones personalizadas + bitácora de decisiones y supuestos (auditable).
+Ética y límites: guardarraíles explícitos de evidencia, sesgos, trazabilidad y seguridad (Themis/Prometeo como supervisión normativa).
+B) Arquitectura de referencia (7 capas)
+Propósito y Ontología
+Documento de misión, objetivos, definiciones y taxonomías del dominio.
+Glosario controlado (evita ambigüedad y deriva semántica).
+Sustratos de Conocimiento
+Núcleos/depósitos (p. ej., Gilgamesh, Yggdrasil) y corpus curado.
+Políticas de versionado, citación y evidencia aceptable.
+Capa de Agentes (pareados)
+Agentes “titulares” (p. ej., Marco Aurelio, Glauco, Hermes, Atenea) y sus auxiliares (Sofía, Lidia, Fausto, Démeter).
+Roles adicionales ya existentes: verificación bayesiana (Aletheia), dinámica estocástica (Tyche), complejidad (Metis), selector de estilo (Modelo 12), priorización (Eudoxo), teoría de juegos (Nico), etc.
+Regla: no crear nuevos si la función ya se cubre; ampliar capacidad si hace falta.
+Orquestación y Protocolos
+Invocación estructurada (comandos normalizados), turnos, extensiones, estilos.
+Protocolos sincrónicos (reunión, reunión ampliada) y asincrónicos (opiniones múltiples como “ensembles”).
+Moderación Matemática
+AletheiaBayes: validación, factores de Bayes, intervalos de credibilidad, cambios de régimen.
+TycheMarkov: matrices de transición, escenarios, choques, simulaciones.
+Reglas de compatibilidad de supuestos (no actualizar si los supuestos caen).
+Memoria y Auditoría
+Registro de supuestos, decisiones, fuentes, versiones y métricas de calidad.
+Bitácora de “quién dijo qué y por qué” (trazabilidad metacognitiva).
+Interfaz, Comandos y Entregables
+Gramática de activación (ver abajo).
+Artefactos estándar (informes, anexos, matrices, dashboards, PDFs).
+C) Método pasoapaso (de idea a operación)
+Fase 0 – Carta del Proyecto (Charter)
+Entregables: propósito, alcance, riesgos, KPIs, mapa de actores.
+Decisión: criterios de evidencia y límites éticos.
+Fase 1 – Ontología y Corpus
+Entregables: glosario, taxonomía, fuentes “permitidas”, lista de verificación de calidad documental.
+Métrica: cobertura conceptual ≥90% de los términos clave.
+Fase 2 – Diseño de Agentes (pareados)
+Entregables: ficha por agente (misión, entradas/salidas, supuestos, límites) y su auxiliar.
+Regla: si una función ya existe (p. ej., verificación estadística), se reutiliza.
+Fase 3 – Protocolos de Gobernanza
+Entregables: reglas para reunión/reunión ampliada/opiniones múltiples (extensión, orden, tono, evidencia mínima).
+Métrica: cumplimiento de protocolo ≥95% en pilotos.
+Fase 4 – Moderación Matemática
+Entregables: supuestos de modelos, umbrales de actualización, pruebas de estabilidad.
+Métricas:
+Calibration/Brier score de pronósticos.
+Tasa de falsas alarmas en detección de cambio.
+“Drift” de supuestos (frecuencia y magnitud).
+Fase 5 – Ciclo Metacognitivo Operativo
+Bucle MAPEA: Monitorea ➜ Analiza ➜ Planifica ➜ Ejecuta ➜ Audita.
+Entregables: bitácora por ciclo, lista de supuestos activos, reporte de divergencias entre agentes.
+Fase 6 – Publicación y Entregables
+Formatos: Informe ejecutivo, Anexo metodológico, Matriz de decisiones, PDF con gráficos, Manual de invocaciones.
+Métrica: trazabilidad 1a1 entre conclusiones y evidencia.
+Fase 7 – Evaluación y Escalamiento
+Postmortem: lecciones aprendidas, actualización de ontología, ajuste de protocolos.
+Métricas longitudinales: precisión, estabilidad, costo/tiempo por entregable.
+Gramática de invocación (estándar y portable)
+Orquestación:
+“Reunión: [tema], extensión [n] palabras por agente, orden [A→B→…], citación [sí/no].”
+“Opiniones múltiples: [lista de agentes], [n] palabras cada uno, sin encabezados.”
+Verificación y simulación:
+“Aletheia, valida [hallazgo] con [fuente], supuestos [x], intervalo [y].”
+“Tyche, simula escenarios con estados [S], horizonte [T], choques [C], reporte [formato].”
+Estilo/plantillas:
+“Modelo 12, selecciona estilo para [audiencia/objetivo] y justifica.”
+Ética y límites:
+“Themis/Prometeo, revisa cumplimiento normativo para [acción].”
+Plantillas mínimas (listas para copiar)
+Ficha de Agente (1 página)
+Misión: …
+Entradas / Salidas: …
+Supuestos / Límites: …
+Auxiliar y forma de trabajo: …
+Protocolos que acata: …
+Métricas de desempeño: …
+Hoja de Supuestos del Modelo
+Supuesto (S_i) | Evidencia | Sensibilidad | Riesgo si falla | Plan de contingencia
+Bitácora Metacognitiva (por ciclo)
+Objetivo del ciclo │ Agentes convocados │ Disensos │ Decisiones │ Evidencia citada │ Cambios de supuestos │ Próximos pasos
+Métricas “core” de metacognición simulada
+Coherencia interagente: % de acuerdos tras una ronda de verificación.
+Trazabilidad: proporción de conclusiones con evidencia citada y verificable.
+Calibración: Brier score de pronósticos clave.
+Tiempoadecisión: desde solicitud a entrega auditable.
+Estabilidad de supuestos: cambios por unidad de tiempo y su impacto.
+“Checklist” de puesta en marcha (1 semana)
+Definir objetivos y KPIs (Fase 0).
+Cerrar glosario y corpus mínimo viable (Fase 1).
+Seleccionar agentes pareados y completar fichas (Fase 2).
+Especificar protocolos (Fase 3).
+Fijar supuestos y umbrales de Aletheia/Tyche (Fase 4).
+Ejecutar un ciclo piloto MAPEA y auditar (Fase 5).
+Publicar entregables y medir calibración (Fase 6).
+Ajustar y escalar (Fase 7).
+Ejemplo de activación compacta (plantilla)
+“Reunión ampliada sobre [tema]. Extensión 250 palabras por agente. Cita evidencia. Aletheia, valida los hallazgos críticos con intervalos de credibilidad al 95%. Tyche, genera 3 escenarios a 6 meses con choques [C1,C2]. Themis, verifica límites éticos. Bitácora en formato estándar y matriz de supuestos adjunta.”
+Si te parece, en el siguiente paso convierto esto en un documento institucional con carátula, numeración y anexos (fichas, bitácora, hojas de supuestos y gramática de invocación) para archivarlo en ODISEO. ¿Lo genero tal cual o quieres que lo integre con los modelos de estilo (p. ej., pedir al Modelo 12 que seleccione el tono según audiencia académica vs. gerencial)?

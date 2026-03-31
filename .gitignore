@@ -1,0 +1,23 @@
+# Generated .docx exports (source .docx in governance/methodology/master folders are tracked)
+txt_exports/**/*.docx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Temporary and swap files
+*.tmp
+*.swp
+*.swo
+*~
+~$*
+.~lock.*

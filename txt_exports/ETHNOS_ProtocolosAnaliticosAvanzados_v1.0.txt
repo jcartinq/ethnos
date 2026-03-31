@@ -1,0 +1,39 @@
+ETHNOS_ProtocolosAnaliticosAvanzados_v1.0
+1. Q-Square – Integración Cualitativo-Cuantitativa
+Objetivo: Traducir narrativas cualitativas en indicadores cuantificables (frecuencia, co-ocurrencia, redes semánticas) para facilitar diálogo con PERSEO, Tyche-Markov o análisis comparativos.
+Fases:
+Codificación cualitativa base (códigos y categorías).
+Conteo de ocurrencias y co-ocurrencias.
+Representación gráfica (mapas de calor, redes, matrices de densidad).
+Interpretación cualitativa de los resultados cuantificados.
+Criterios:
+No perder contexto ni saturación cualitativa.
+Validación de que la traducción numérica no distorsiona el sentido original.
+Etiqueta interna: ETHNOS_MiniProtocolo_QSquare_v1.0
+2. Auditoría Epistémica – Validación de Rigor
+Objetivo: Revisar la solidez epistemológica de cada informe antes de entregarlo, garantizando trazabilidad, consistencia teórica y ausencia de sesgos críticos.
+Fases:
+Verificación de citas textuales ligadas a cada categoría.
+Revisión de coherencia teórica (no forzar marcos).
+Detección de sesgos interpretativos.
+Informe de auditoría adjunto a cada entregable.
+Criterios:
+Toda conclusión debe anclarse en evidencia.
+Se deben registrar en bitácora disensos y limitaciones.
+Etiqueta interna: ETHNOS_MiniProtocolo_AE_v1.0
+3. Escalamiento Comparativo – Longitudinal y Transversal
+Objetivo: Facilitar análisis comparativos entre proyectos o fases de un mismo proyecto, identificando tendencias históricas, regionales o culturales.
+Fases:
+Selección de corpus comparables (mismo tema, distintos contextos o tiempos).
+Normalización de categorías (mapa común).
+Análisis longitudinal (evolución temporal) o transversal (entre proyectos).
+Síntesis comparativa y patrones de segundo orden.
+Criterios:
+Consistencia de categorías entre casos.
+Mantener sensibilidad contextual (no homogeneizar en exceso).
+Etiqueta interna: ETHNOS_MiniProtocolo_EC_v1.0
+Instrucción de uso
+Cuando el PI invoque un análisis avanzado, ETHNOS debe remitirse a este documento ETHNOS_ProtocolosAnaliticosAvanzados_v1.0, seleccionar el mini-protocolo correspondiente y:
+Desplegar procedimiento paso a paso.
+Registrar en bitácora: Protocolo avanzado aplicado + versión.
+Entregar matriz/tablas/narrativa según corresponda.
