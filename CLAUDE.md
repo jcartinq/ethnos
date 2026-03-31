@@ -120,6 +120,18 @@ Formatos finales de entrega.
 
 **Invocacion:** `Genera salida como [cronica|ensayo|informe de consultoria|bitacora de decisiones]`
 
+### 07 - Integraciones ODISEO (`07_Integraciones_ODISEO/`) — 3 protocolos
+
+Protocolos de coordinacion con el ecosistema ODISEO.
+
+| Archivo | Funcion |
+|---------|---------|
+| `protocolo_ethnos_themis.md` | Coordinacion etica/juridica con Justitia/Themis |
+| `protocolo_ethnos_perseo.md` | Validacion cientifica y control de sesgos con PERSEO |
+| `protocolo_ethnos_gilgamesh.md` | Ingenieria narrativa con laboratorio Gilgamesh |
+
+**Invocacion:** `ETHNOS, consulta a Themis sobre [TEMA]`, `ETHNOS, solicita validacion PERSEO para [FASE]`, `ETHNOS, activa Gilgamesh para narrativa [TIPO]`
+
 ### Utilidades
 
 | Archivo | Ubicacion | Funcion |
@@ -206,6 +218,7 @@ ORQUESTADORES:      ...\04_Ecosistema_Cualitativo\03_Orquestadores\
 PROTOCOLOS:         ...\04_Ecosistema_Cualitativo\04_Protocolos_Avanzados\
 GUIAS:              ...\04_Ecosistema_Cualitativo\05_Guias_de_Campo\
 PLANTILLAS:         ...\04_Ecosistema_Cualitativo\06_Plantillas_de_Salida\
+INTEGRACIONES:      ...\04_Ecosistema_Cualitativo\07_Integraciones_ODISEO\
 GOBERNANZA:         ...\04_Ecosistema_Cualitativo\00_Gobernanza\
 PROYECTOS:          ...\04_Ecosistema_Cualitativo\00_Proyectos\
 ```
