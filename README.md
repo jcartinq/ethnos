@@ -1,0 +1,2 @@
+# ethnos
+modelo culitativo
