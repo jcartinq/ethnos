@@ -12,16 +12,24 @@ Toda operacion analitica debe respetar los principios de rigor epistemologico, r
 
 Directorio raiz: `C:\Users\uned\Desktop\ETHNOS\04_Ecosistema_Cualitativo\`
 
-### 01 - Lentes Teoricos (`01_Lentes_Teoricos/`)
+### 01 - Lentes Teoricos (`01_Lentes_Teoricos/`) — 20 lentes
 
 Marcos interpretativos que orientan el analisis. Cada lente se invoca como filtro analitico sobre los datos.
 
 | Archivo | Marco Teorico | Conceptos Clave |
 |---------|---------------|-----------------|
 | `lente_bourdieu.md` | Bourdieu | Habitus, capital, campos, violencia simbolica |
+| `lente_butler.md` | Butler | Performatividad, genero, precaridad, sujecion |
 | `lente_chomsky.md` | Chomsky | Estructura profunda, manufactura del consentimiento |
+| `lente_crenshaw.md` | Crenshaw | Interseccionalidad, ejes de opresion cruzados, matriz de dominacion |
 | `lente_dennett.md` | Dennett | Postura intencional, diseno darwiniano |
+| `lente_derrida.md` | Derrida | Deconstruccion, differance, suplemento, espectralidad |
+| `lente_fanon_said.md` | Fanon/Said | Poscolonialismo, otredad colonial, violencia epistemica |
+| `lente_foucault.md` | Foucault | Poder/saber, gubernamentalidad, biopolitica, dispositivos disciplinarios |
 | `lente_giddens.md` | Giddens | Estructuracion, reflexividad, desanclaje |
+| `lente_gramsci.md` | Gramsci | Hegemonia cultural, sentido comun, intelectuales organicos |
+| `lente_habermas.md` | Habermas | Accion comunicativa, esfera publica, colonizacion del mundo de vida |
+| `lente_latour.md` | Latour | Teoria Actor-Red (ANT), actantes no-humanos, redes socio-tecnicas |
 | `lente_levi_strauss.md` | Levi-Strauss | Oposiciones binarias, mitemas, mediaciones |
 | `lente_margaret_mead.md` | Margaret Mead | Cultura y personalidad, plasticidad humana |
 | `lente_pinker.md` | Pinker | Psicologia evolutiva, modulos cognitivos |
@@ -33,7 +41,7 @@ Marcos interpretativos que orientan el analisis. Cada lente se invoca como filtr
 
 **Invocacion:** `Aplica el lente de [AUTOR]` o `Analiza con lente [AUTOR]`
 
-### 02 - Motores Metodologicos (`02_Motores_Metodologicos/`)
+### 02 - Motores Metodologicos (`02_Motores_Metodologicos/`) — 17 motores
 
 Herramientas analiticas que procesan datos cualitativos mediante metodos especificos.
 
@@ -52,10 +60,14 @@ Herramientas analiticas que procesan datos cualitativos mediante metodos especif
 | `skill_dialectica.md` | Dialectica | Analisis dialectico Hegel/Marx |
 | `skill_mayeutica.md` | Mayeutica | Interrogacion socratica |
 | `skill_abogado_del_diablo.md` | Abogado del Diablo | Auditoria Red Team final |
+| `skill_analisis_narrativo.md` | Analisis Narrativo | Temporalidad, trama, modelo actancial Greimas |
+| `skill_analisis_critico_discurso.md` | Analisis Critico del Discurso | ACD Fairclough/Van Dijk |
+| `skill_etnometodologia.md` | Etnometodologia | Analisis conversacional Garfinkel/Sacks |
+| `skill_preprocesamiento_corpus.md` | Preprocesamiento de Corpus | Limpieza y normalizacion de corpus (Fase -0.5) |
 
 **Invocacion:** `Ejecuta [NOMBRE_MOTOR]` o `Aplica [METODO] sobre los datos`
 
-### 03 - Orquestadores (`03_Orquestadores/`)
+### 03 - Orquestadores (`03_Orquestadores/`) — 3 orquestadores
 
 Workflows que coordinan multiples componentes en secuencia.
 
@@ -63,12 +75,13 @@ Workflows que coordinan multiples componentes en secuencia.
 |---------|---------|
 | `workflow_iniciar_proyecto.md` | Inicializacion completa de proyecto de investigacion |
 | `workflow_analisis_etnografico_complejo.md` | Pipeline completo de analisis etnografico |
+| `workflow_selector_lentes.md` | Recomendador de lentes teoricos post-Fase 1 |
 
 **Invocacion:**
 - Iniciar proyecto: `ETHNOS, inicia el proyecto [NOMBRE_PROYECTO]`
 - Pipeline completo: `ETHNOS, ejecuta analisis etnografico complejo`
 
-### 04 - Protocolos Avanzados (`04_Protocolos_Avanzados/`)
+### 04 - Protocolos Avanzados (`04_Protocolos_Avanzados/`) — 4 protocolos
 
 Protocolos de validacion y escalamiento.
 
@@ -76,10 +89,12 @@ Protocolos de validacion y escalamiento.
 |---------|---------|
 | `skill_auditoria_epistemica.md` | Validacion de rigor epistemologico |
 | `skill_escalamiento_comparativo.md` | Analisis comparativo longitudinal y transversal |
+| `skill_fiabilidad_intercodificador.md` | Fiabilidad inter-codificador (Cohen's Kappa) |
+| `skill_triangulacion.md` | Triangulacion de datos (Denzin) |
 
-**Invocacion:** `Ejecuta auditoria epistemica` o `Aplica escalamiento comparativo`
+**Invocacion:** `Ejecuta auditoria epistemica`, `Aplica escalamiento comparativo`, `Calcula fiabilidad inter-codificador` o `Ejecuta triangulacion`
 
-### 05 - Guias de Campo (`05_Guias_de_Campo/`)
+### 05 - Guias de Campo (`05_Guias_de_Campo/`) — 4 guias
 
 Protocolos operativos para trabajo de campo.
 
@@ -88,10 +103,11 @@ Protocolos operativos para trabajo de campo.
 | `guia_planificacion_campo.md` | Planificacion de operaciones de campo |
 | `guia_consentimiento_informado.md` | Etica y consentimiento informado |
 | `guia_gestion_datos.md` | Plan de gestion de datos |
+| `guia_devolucion_participantes.md` | Devolucion a participantes y member checking |
 
-**Invocacion:** `Genera guia de [planificacion|consentimiento|gestion de datos]`
+**Invocacion:** `Genera guia de [planificacion|consentimiento|gestion de datos|devolucion a participantes]`
 
-### 06 - Plantillas de Salida (`06_Plantillas_de_Salida/`)
+### 06 - Plantillas de Salida (`06_Plantillas_de_Salida/`) — 4 plantillas
 
 Formatos finales de entrega.
 
@@ -100,8 +116,9 @@ Formatos finales de entrega.
 | `plantilla_cronica_etnografica.md` | Cronica etnografica inmersiva |
 | `plantilla_ensayo_interpretativo.md` | Ensayo interpretativo academico |
 | `plantilla_informe_consultoria.md` | Informe de consultoria pragmatico |
+| `plantilla_bitacora_decisiones.md` | Bitacora de decisiones metodologicas |
 
-**Invocacion:** `Genera salida como [cronica|ensayo|informe de consultoria]`
+**Invocacion:** `Genera salida como [cronica|ensayo|informe de consultoria|bitacora de decisiones]`
 
 ### Utilidades
 
@@ -117,17 +134,25 @@ Formatos finales de entrega.
 Secuencia estandar de procesamiento. Cada fase alimenta a la siguiente.
 
 ```
-Fase -1  Semiotica Visual .............. Decodificacion de imagenes y mapas
-Fase  0  Triaje Masivo ................. Clasificacion demografica inicial
-Fase  1  Grounded Theory ............... Codificacion abierta/axial/selectiva
-Fase 1.5 Auditoria Discursiva 12D ..... Analisis discursivo multidimensional
-Fase  2  Lente Teorico ................. Aplicacion de marco interpretativo
-Fase 2.5 Q-Square ...................... Puente cualitativo-cuantitativo
-Fase 2.8 Perfilador Multidimensional ... Arquetipos cognitivo-culturales
-Fase  3  Plantilla de Salida ........... Generacion de documento final
-Fase 3.5 Abogado del Diablo ........... Auditoria Red Team
-Fase 3.7 Auditoria Epistemica ......... Validacion de rigor
-Fase  4  Exportacion DOCX .............. Documento final formateado
+Fase -1   Semiotica Visual .............. Decodificacion de imagenes y mapas
+Fase -0.5 Preprocesamiento Corpus (NEW)  Limpieza y normalizacion de corpus
+Fase  0   Triaje Masivo ................. Clasificacion demografica inicial
+Fase  1   Grounded Theory ............... Codificacion abierta/axial/selectiva
+Fase  1.2 Selector de Lentes (NEW) ..... Recomendacion de lentes teoricos
+Fase  1.5 Auditoria Discursiva 12D ..... Analisis discursivo multidimensional
+Fase  2   Lente Teorico ................. Aplicacion de marco interpretativo (20 disponibles)
+Fase  2.3 Analisis Narrativo (NEW) ..... Temporalidad, trama, modelo actancial (opcional)
+Fase  2.4 ACD (NEW) .................... Analisis Critico del Discurso (opcional)
+Fase  2.5 Q-Square ...................... Puente cualitativo-cuantitativo
+Fase  2.6 Etnometodologia (NEW) ........ Analisis conversacional (opcional, focus groups)
+Fase  2.8 Perfilador Multidimensional ... Arquetipos cognitivo-culturales
+Fase  3   Plantilla de Salida ........... Generacion de documento final
+Fase  3.5 Abogado del Diablo ........... Auditoria Red Team
+Fase  3.7 Auditoria Epistemica ......... Validacion de rigor
+Fase  3.8 Triangulacion (NEW) .......... Triangulacion de datos Denzin
+Fase  3.9 Fiabilidad Inter-cod. (NEW) .. Cohen's Kappa (si multiples codificadores)
+Fase  4   Exportacion DOCX .............. Documento final formateado
+Fase  5   Devolucion Participantes (NEW)  Member checking y devolucion
 ```
 
 **Invocacion del pipeline completo:** `ETHNOS, ejecuta pipeline completo sobre [DATOS]`
